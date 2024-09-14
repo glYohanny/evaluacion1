@@ -1,0 +1,118 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Home</ion-title>    <!-- aca tiene que aparaser el nombre del user -->
+    <ion-buttons slot="start">
+      <ion-menu-button auto-hide="false" menu="main-menu"></ion-menu-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <p>
+    Bienvenidos <b>{{usuario}}</b> a nuestra página dedicada a los juegos de Nintendo, donde encontrarás 
+    una colección única de curiosidades y datos interesantes sobre tus títulos favoritos. 
+    Desde historias ocultas detrás del desarrollo de los juegos hasta secretos escondidos 
+    en los niveles más icónicos, esta plataforma está diseñada para los fans que quieren 
+    conocer esos pequeños detalles que hacen a cada juego especial. A continuación, te 
+    presentamos algunos de los títulos más destacados, donde podrás explorar curiosidades 
+    fascinantes sobre cada uno de ellos:
+  </p>
+
+  <ion-list>
+    <ion-list-header>
+      <ion-label>Video Games</ion-label>
+    </ion-list-header>
+    <ion-item>
+      <ion-label>Pokémon Yellow</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label>Mega Man X</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label>The Legend of Zelda</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label>Pac-Man</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label>Super Mario World</ion-label>
+    </ion-item>
+  </ion-list>
+
+  <!-- Cartas relacionadas a los videojuegos -->
+  <ion-card>
+    <img alt="Pokémon Yellow" src="https://ionicframework.com/docs/img/demos/card-media.png" />
+    <ion-card-header>
+      <ion-card-title>Pokémon Yellow</ion-card-title>
+      <ion-card-subtitle>Curiosidades del juego</ion-card-subtitle>
+    </ion-card-header>
+    <ion-card-content>
+      Descubre cómo Pikachu se convirtió en el compañero inseparable del jugador y qué diferencias hay entre este juego y las otras versiones de Pokémon.
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <img alt="Mega Man X" src="https://ionicframework.com/docs/img/demos/card-media.png" />
+    <ion-card-header>
+      <ion-card-title>Mega Man X</ion-card-title>
+      <ion-card-subtitle>Curiosidades del juego</ion-card-subtitle>
+    </ion-card-header>
+    <ion-card-content>
+      ¿Sabías que Mega Man X introdujo habilidades nuevas que revolucionaron la jugabilidad? Aprende más sobre cómo este título redefinió la franquicia.
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <img alt="The Legend of Zelda" src="https://ionicframework.com/docs/img/demos/card-media.png" />
+    <ion-card-header>
+      <ion-card-title>The Legend of Zelda</ion-card-title>
+      <ion-card-subtitle>Curiosidades del juego</ion-card-subtitle>
+    </ion-card-header>
+    <ion-card-content>
+      Explora el origen del icónico mapa del juego y los secretos que aún permanecen ocultos en el mundo de Hyrule.
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <img alt="Pac-Man" src="https://ionicframework.com/docs/img/demos/card-media.png" />
+    <ion-card-header>
+      <ion-card-title>Pac-Man</ion-card-title>
+      <ion-card-subtitle>Curiosidades del juego</ion-card-subtitle>
+    </ion-card-header>
+    <ion-card-content>
+      Descubre por qué Pac-Man es un juego atemporal y qué estrategias se pueden usar para vencer a los fantasmas en cada nivel.
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <img alt="Super Mario World" src="https://ionicframework.com/docs/img/demos/card-media.png" />
+    <ion-card-header>
+      <ion-card-title>Super Mario World</ion-card-title>
+      <ion-card-subtitle>Curiosidades del juego</ion-card-subtitle>
+    </ion-card-header>
+    <ion-card-content>
+      Sumérgete en los secretos de Dinosaur Land y conoce las innovaciones que hicieron de este juego un clásico inolvidable.
+    </ion-card-content>
+  </ion-card>
+
+  <!-- pie de pagina -->
+  <ion-footer>
+    <ion-toolbar color="light">
+      <div class="footer-content">
+        <ion-label class="autor">Autor: Pedro Torres y Amaro Rodriguez</ion-label>
+        <div class="social-icons">
+          <a href="https://www.facebook.com/tuperfil" target="_blank">
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a>
+          <a href="https://www.twitter.com/tuperfil" target="_blank">
+            <ion-icon name="logo-twitter"></ion-icon>
+          </a>
+          <a href="https://www.instagram.com/tuperfil" target="_blank">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+        </div>
+      </div>
+    </ion-toolbar>
+  </ion-footer>
+  
+</ion-content>

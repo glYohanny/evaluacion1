@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Ingreso de Usuario</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-card class="form-wrapper">
+  <ion-card-title class="titulo-card">Iniciar sesion</ion-card-title>
+  <ion-card-content>
+    <ion-item>
+      <ion-icon class="icono-login" name="person-circle-outline"></ion-icon>
+      <ion-input [(ngModel)]="usuario" type="text" placeholder="Usuario"></ion-input>
+    </ion-item>
+  
+    <ion-item>
+      <ion-icon class="icono-login" name="lock-closed-outline"></ion-icon>
+      <ion-input [(ngModel)]="contrasena" type="password" placeholder="Contraseña"></ion-input>
+    </ion-item>
+  
+    <ion-button class="boton-home" expand="block" (click)="ingresar()">Ingresar</ion-button> 
+    <!-- aca en la linea de arriba estoy llamado el metodo home_hack eliminalo si esta en la linea  -->
+    
+    <ion-button class="boton-home" expand="block" fill="outline" (click)="recuperar()">Restablecer Contraseña</ion-button>
+</ion-card-content>
+</ion-card>
